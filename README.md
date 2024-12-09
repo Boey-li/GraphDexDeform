@@ -1,8 +1,10 @@
 # GraphDexDeform
 
-`This is a final project for CS598 Deep Learning with Graphs (https://ulab-uiuc.github.io/CS598/#schedule) Fall 2024 at UIUC.` 
+`This is a final project for CS598: Deep Learning with Graphs Fall 2024 at UIUC.` 
 
 GraphDexDeform is a course project focused on manipulating deformable objects using a dexterous hand, leveraging Graph Neural Network-based dynamics models.
+
+[Course Website](https://ulab-uiuc.github.io/CS598/#schedule)
 
 ## Installation
 ```shell
