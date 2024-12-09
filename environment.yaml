@@ -1,0 +1,55 @@
+name: gbnd
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+  - pytorch3d
+  - menpo
+  - pyg
+dependencies:
+  - python=3.9
+  - pip
+
+  - fvcore
+  - iopath
+  - pyg
+  - pytorch_scatter
+  - pytorch_cluster
+
+  # do not change below
+  - cuda-toolkit=12.1
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - pytorch3d=0.7.5
+  # do not change above
+
+  # mujoco egl related
+  # https://github.com/openai/mujoco-py/issues/627
+  # $ conda install -c conda-forge glew
+  # $ conda install -c conda-forge mesalib
+  # $ conda install -c menpo glfw3
+  - glew
+  - mesalib
+  - glfw3
+
+  - fvcore
+  - iopath
+  - scipy 
+  - numpy<2
+  - py-opencv
+  - matplotlib
+  - zarr
+  - h5py
+  - hydra-core
+  - wandb
+  - diffusers
+  - einops
+  - pandas
+  - numba
+  - dill
+  - open3d
+  - av
+  - imageio
+  - moviepy
+  - dill
+  - pillow
